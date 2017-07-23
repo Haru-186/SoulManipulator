@@ -38,3 +38,6 @@ desktop.ini
 #自作プラグインにプレフィックスなどを付けて、うまく制御してください。
 /js/pluguins/*.js
 !/js/pluguins/xx*.js
+
+#VS code で javascript 環境を構築したときに生成するファイル
+package.json
