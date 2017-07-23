@@ -10,6 +10,7 @@ desktop.ini
 # プラグインパラメータを保存したいのであれば、コメントアウト
 /js/plugins.js
 /data/System.json
+/data/Test_*.json
 # エディタ用の無視設定
 /.vscode/
 #セーブデータ
@@ -31,6 +32,7 @@ desktop.ini
 /js/rpg_scenes.js
 /js/rpg_sprites.js
 /js/rpg_windows.js
+
 
 #自分のプラグインのみをコミット対象にする設定
 #自作プラグインにプレフィックスなどを付けて、うまく制御してください。
