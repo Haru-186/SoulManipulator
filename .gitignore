@@ -1,0 +1,38 @@
+#音声ファイル
+*.m4a
+*.ogg
+*.png
+*.psd
+#desktop.iniというwindowsの設定用隠しファイル
+desktop.ini
+
+# ツクール本体が自動生成するスクリプト
+# プラグインパラメータを保存したいのであれば、コメントアウト
+/js/plugins.js
+/data/System.json
+# エディタ用の無視設定
+/.vscode/
+#セーブデータ
+/save/
+#デバッグ用の一時ファイル
+/debug/
+#その他リソース
+/audio/
+/img/
+/fonts/
+/icon/
+/movies/
+
+#メインのスクリプト
+/js/libs/
+/js/rpg_core.js
+/js/rpg_managers.js
+/js/rpg_objects.js
+/js/rpg_scenes.js
+/js/rpg_sprites.js
+/js/rpg_windows.js
+
+#自分のプラグインのみをコミット対象にする設定
+#自作プラグインにプレフィックスなどを付けて、うまく制御してください。
+/js/pluguins/*.js
+!/js/pluguins/xx*.js
