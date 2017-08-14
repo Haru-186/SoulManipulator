@@ -8,36 +8,36 @@ desktop.ini
 
 # ツクール本体が自動生成するスクリプト
 # プラグインパラメータを保存したいのであれば、コメントアウト
-/js/plugins.js
-/data/System.json
-/data/Test_*.json
+/source/js/plugins.js
+/source/data/System.json
+/source/data/Test_*.json
 # エディタ用の無視設定
 /.vscode/
 #セーブデータ
-/save/
+/source/save/
 #デバッグ用の一時ファイル
-/debug/
+/source/debug/
 #その他リソース
-/audio/
-/img/
-/fonts/
-/icon/
-/movies/
+/source/audio/
+/source/img/
+/source/fonts/
+/source/icon/
+/source/movies/
 
 #メインのスクリプト
-/js/libs/
-/js/rpg_core.js
-/js/rpg_managers.js
-/js/rpg_objects.js
-/js/rpg_scenes.js
-/js/rpg_sprites.js
-/js/rpg_windows.js
+/source/js/libs/
+/source/js/rpg_core.js
+/source/js/rpg_managers.js
+/source/js/rpg_objects.js
+/source/js/rpg_scenes.js
+/source/js/rpg_sprites.js
+/source/js/rpg_windows.js
 
 
 #自分のプラグインのみをコミット対象にする設定
 #自作プラグインにプレフィックスなどを付けて、うまく制御してください。
-/js/pluguins/*.js
-!/js/pluguins/xx*.js
+/source/js/pluguins/*.js
+!/source/js/pluguins/xx*.js
 
 #VS code で javascript 環境を構築したときに生成するファイル
 package.json
